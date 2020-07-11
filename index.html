@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP WATCH</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css "href="css/style.css"> -->
+</head>
+<style>
+    body{
+        background-color: black;
+        background-image: url(stopwatch.jpeg);
+        width: auto;
+        text-align: center;  
+  height: 100vh;
+  width: 90vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+    
+h1{
+        color:azure;
+        display: inline-block;
+        /* background-color: #fff; */
+        width: 130px;
+
+    }
+    button{
+        width: 65px;
+        height: px;
+
+    }
+</style>
+<body>
+    <div><h1><b> STOP WATCH</b> </h1></div>
+<div>
+    <h1 id="minutes">00 &nbsp; </h1>
+    <h1 id="seconds">00 &nbsp;</h1>
+    <h1 id="miliseconds">00&nbsp; </h1>
+</div>
+<div>
+<button id="sw-rst" onclick="start()"> <i class="fa fa-stop"></i>    </button>
+<button id="sw-rst"onclick="pause()"><i class="fa fa-pause"></i>    </button>
+<button id="sw-rst" onclick="reset()"><i class="fa fa-play"></i>    </button>
+</div>
+   
+    </div> 
+       
+  <script src="app.js"></script>  
+</body>
+</html>
